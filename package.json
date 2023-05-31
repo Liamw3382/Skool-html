@@ -1,5 +1,6 @@
 {
-  "name": "Skool-Proxy",
+  "name": "skool-proxy" ,
+  "url" : "https://github.com/Skoolgq/skoolv2",
   "version": "1.0.0",
   "description": "Best skool-proxy",
   "main": "index.js",
