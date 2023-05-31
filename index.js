@@ -6,10 +6,10 @@ const app = express();
 const proxy = new Corrosion({
   prefix: "/service/",
   codec: "xor",
-  title: "Rusty",
+  title: "service",
   forceHttps: true,
   requestMiddleware: [
-    Corrosion.middleware.blacklist(["accounts.google.com"], "Page is blocked"),
+    Corrosion.middleware.blacklist(["accounts.google.com"], "This page is on the middleware list"),
   ],
 });
 
